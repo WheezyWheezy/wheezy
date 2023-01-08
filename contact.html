@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>The Tremendous | Achat en ligne</title>
+	<link rel="stylesheet" href="./css/fontawesome.min.css">
+	<link rel="stylesheet" href="./css/ClasseUtilitaire.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/menu.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	</head>
+
+	<body>
+		<!--Menu desktop-->
+		<nav id="menu-desktop">
+			<div id="logo"><a href="index.html">T04-System</a></div>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="categorie.html">Catégorie</a></li>
+				<li><a href="listeProduits.html">Produits</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+				<li><a href="loisir.html">Loisir</a></li>
+				<li><a href="#" id="heure"></a></li>
+			</ul>
+		</nav>
+
+		<!--Menu mobile-->
+		<nav id="menu-mobile">
+			<input type="checkbox" id="toggler">
+			<label id="hamberger" for="toggler">&#9776;</label>
+			<ul class="menu-mobile-toggle">
+				<li><a class="active" href="index.html">Accueil</a></li>
+				<li><a href="produits.html">Liste des Produits</a></li>
+				<li><a href="categorie.html">Catégorie</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="loisir.html">Loisir</a></li>
+			</ul>
+		</nav>
+		<!--Header-->
+		<header id="home-header">
+			<div class="contenu center">
+				<h1>
+					<span>Contacter Nous!</span>
+					<span></span>
+				</h1>
+				<a class="btn btn-header" href="contact.html">Acheter Maintenant</a>
+			</div>
+        </header>
+        <div class="container-2 footer-container">
+			<div class="email-capture">
+				<h2>Rester Connecte</h2>
+				<p>
+					Faisant partis de notre list Email, 
+					vous resterez informer de nos nouveaux produits
+				</p>
+				<form action="">
+					<div>
+						<input type="email" placeholder="votre Adresse mail">
+					</div>
+					<div >
+						<button class="btn" type="submit">Abonner</button> 
+					</div>
+				</form>
+			</div>
+			<div class="liens-footer">
+				<h2>Nos Liens</h2>
+				<ul>
+					<li><a href="#">Aides et Supports</a></li>
+					<li><a href="#">Confidentialiter</a></li>
+					<li><a href="#">A propos</a></li>
+					<li><a href="contact">Nous constacter</a></li>
+				</ul>
+			</div>
+
+			<div class="reseaux-sociaux">
+				<h2>Reseaux Sociaux</h2>
+				<p>
+					Nous sommes tres active sur les Reseaux Sociaux pour vous offrir des meilleur services.
+				</p>
+				<ul>
+					<li><a href="#"><img src="./icons/facebook_old_50px.png"></a></li>
+					<li><a href="#"><img src="./icons/twitter_50px.png"></a></li>
+					<li><a href="#"><img src="./icons/instagram_50px.png"></a></li>
+					<li><a href="#"><img src="./icons/gmail_50px.png"></a></li>
+				</ul>
+            </div>
+            </div>
+            
+	<section class="section-anba container-2">
+		<img class="icon2" src="./icons/discount_90px.png">
+		<div>
+			<h2 class="lead">Speciale a chaque periode de fete</h2>
+			<p>Principalement a noel, pour les fins d'annees, les fetes des meres et pour 
+				la rentrer des classes Cerebro vous offre de 25% a 50% de reduction sur tout 
+				ses articles en rapport a l'evenement.
+				Sans oublier notre tirage chaque annee pendant ces occasions
+			</p><br>
+			<p>
+				Pendant les periodes de fete national,fete du drapeau et autres nous vous offrons tout un stock 
+				de produits artisanat,des oeuvres d'art en tout genre a des prix abordable en vue de "kore pwodiksyon lokal la."
+			</p>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer>
+			<div class="copyright">
+				<p>The Tremendous &copy; tout droit reserve</p>
+			</div>
+		
+	</footer>
+	<script type="text/javascript">
+        var h = document.getElementById("heure");
+		setInterval(hor,1000);
+		function hor(){
+			var d = new Date();
+			h.innerHTML = d.toLocaleTimeString();
+		}
+        </script>
+	</body>
+</html>

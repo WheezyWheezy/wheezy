@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cerebro | Achat en ligne</title>
+	<link rel="stylesheet" href="./css/fontawesome.min.css">
+	<link rel="stylesheet" href="./css/ClasseUtilitaire.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/menu.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	</head>
+
+	<body>
+		<!--Menu desktop-->
+		<nav id="menu-desktop">
+			<div id="logo"><a href="index.html">Cerebro</a></div>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="categorie.html">Catégorie</a></li>
+				<li><a href="listeProduits.html">Produits</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a class="active" href="loisir.html">Loisir</a></li>
+				<li><a href="#" id="heure"></a></li>
+			</ul>
+		</nav>
+
+		<!--Menu mobile-->
+		<nav id="menu-mobile">
+			<input type="checkbox" id="toggler">
+			<label id="hamberger" for="toggler">&#9776;</label>
+			<ul class="menu-mobile-toggle">
+				<li><a class="active" href="index.html">Accueil</a></li>
+				<li><a href="produits.html">Liste des Produits</a></li>
+				<li><a href="categorie.html">Catégorie</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="loisir.html">Loisir</a></li>
+			</ul>
+		</nav>
+		<!--Header-->
+		<header id="home-header">
+			<div class="contenu center">
+				<h1>
+					<span>Cerebro</span>
+					<span>Achat produits en Ligne</span>
+				</h1>
+				<a class="btn btn-header" href="contact.html">Acheter Maintenant</a>
+			</div>
+		</header>
+			<div class="boost-container-video">
+
+				<div class="p-1">
+				<video class="video"  controls autoplay 
+				src="Video messi/MESSI 1.mp4">
+                </video>			
+			</div>
+
+			<div class="p-1">
+				<video class="video"  controls autoplay 
+				src="Video messi/MESSI2.mp4">
+                </video>			
+			</div>
+
+
+			<div class="p-1">
+				<video class="video"  controls autoplay 
+				src="Video messi/messi4.mp4">
+                </video>			
+			</div>
+			<div class="p-1">
+				<video class="video"  controls autoplay 
+				src="Video messi/messi6.mp4">
+                </video>			
+			</div>
+			</div>
+
+
+	
+	<footer>
+		<div class="container-2 footer-container">
+			<div class="email-capture">
+				<h2>Rester Connecte</h2>
+				<p>
+					Faisant partis de notre list Email, 
+					vous resterez informer de nos nouveaux produits
+				</p>
+				<form action="">
+					<div>
+						<input type="email" placeholder="votre Adresse mail">
+					</div>
+					<div >
+						<button class="btn" type="submit">Abonner</button> 
+					</div>
+				</form>
+			</div>
+			<div class="liens-footer">
+				<h2>Nos Liens</h2>
+				<ul>
+					<li><a href="#">Aides et Supports</a></li>
+					<li><a href="#">Confidentialiter</a></li>
+					<li><a href="propos">A propos</a></li>
+					<li><a href="contact">Nous constacter</a></li>
+				</ul>
+			</div>
+
+			<div class="reseaux-sociaux">
+				<h2>Reseaux Sociaux</h2>
+				<p>
+					Nous sommes tres active sur les Reseaux Sociaux pour vous offrir des meilleur services.
+				</p>
+				<ul>
+					<li><a href="#"><i class="fa fa-folder fa-4x"></i></a></li>
+					<li><a href="#"><i class="fa fa-folder fa-4x"></i></a></li>
+					<li><a href="#"><i class="fa fa-folder fa-4x"></i></a></li>
+					<li><a href="#"><i class="fa fa-folder fa-4x"></i></a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				<p>Cerebro &copy; tout droit reserve</p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+        var h = document.getElementById("heure");
+		setInterval(hor,1000);
+		function hor(){
+			var d = new Date();
+			h.innerHTML = d.toLocaleTimeString();
+		}
+        </script>
+	</body>
+</html>
